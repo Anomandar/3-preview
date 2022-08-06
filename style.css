@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(0, 0%, 95%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+}
+
+
+@media only screen and (max-width: 375px){
+    body{
+        max-width: 375px;
+    }
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .wrapper{
+        display: block;
+        margin: 4rem 0.2rem;
+    }
+}
+
+.orange-side{
+    background: hsl(31, 77%, 52%);
+    width: 18rem;
+    padding: 3rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+@media only screen and (max-width: 375px){
+    .orange-side{
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+}
+.blue-side{
+    background: hsl(184, 100%, 22%);
+    width: 18rem;
+    padding: 3rem;
+
+}
+
+.green-side{
+    background: hsl(179, 100%, 13%);
+    width: 18rem;
+    padding: 3rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+@media only screen and (max-width: 375px){
+    .green-side{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+        margin-bottom: 4rem;
+    }
+}
+
+
+.headers{
+    padding: 2rem 0;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2rem;
+}
+@media only screen and (max-width: 375px){
+    .headers{
+        padding: 1.5rem 0 1rem;
+    }
+}
+
+
+.parag{
+    padding: 0 0 3rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.2rem;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+@media only screen and (max-width: 375px){
+    .parag{
+        line-height: 1.5rem;
+        padding: 0;
+        font-size: 0.8rem;
+    }
+}
+
+.learn-btn{
+    align-items: center;
+    width: 65%;
+    padding: 0.7rem 0;
+    margin-top: 1rem;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+
+}
+/* @media only screen and (max-width: 375px){
+    .learn-btn{
+        margin: bottom 0;
+    }
+} */
+
+.ong-learn-btn{
+    color: hsl(31, 77%, 52%);
+}
+
+.blu-learn-btn{
+    color: hsl(184, 100%, 22%);
+}
+
+.grn-learn-btn{
+    color: hsl(179, 100%, 13%);
+}
+
+.ong-learn-btn:hover{
+    background: hsl(31, 77%, 52%);
+    border: 1.5px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.blu-learn-btn:hover{
+    background: hsl(184, 100%, 22%);
+    border: 1.5px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.grn-learn-btn:hover{
+    background: hsl(179, 100%, 13%);
+    border: 1.5px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}

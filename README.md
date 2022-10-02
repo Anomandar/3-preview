@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:(https://github.com/Bill-Adepoju/3-preview)
-- Live Site URL:(https://bill-adepoju.github.io/3-preview/)
+- Solution URL:(https://github.com/Anomandar/3-preview)
+- Live Site URL:(https://anomandar.github.io/3-preview/)
 
 ## My process
 
